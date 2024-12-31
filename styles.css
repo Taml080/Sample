@@ -111,7 +111,7 @@ p {
 .signup-button:hover {
     background-color: #8a2be2;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:550px){
     .logo{
         height: 60px;
         width: 60px;
