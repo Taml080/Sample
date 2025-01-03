@@ -261,6 +261,13 @@ body {
       height: 80px;
       flex: none;
     }
+      
+    .formdesign{
+      width: 80%;
+    }
+    .formdesign input{
+      width: 80%;
+    }
   }
 input[type="number"]::-webkit-inner-spin-button, 
 input[type="number"]::-webkit-outer-spin-button {
