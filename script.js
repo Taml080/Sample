@@ -14,7 +14,7 @@ document.getElementById("registrationForm").addEventListener("submit", async fun
       
 
 try {
-    const response = await fetch('https://script.google.com/macros/s/AKfycbxQ0i2hmmMDpx0iwNh6u7gRZHPIaQT-ii3dmyyEix0jWlbU_vmUcbBc7c2ZcJvsWq1AYg/exec', {
+    const response = await fetch('https://script.google.com/macros/s/AKfycbwV5i_UDly4MetuI6dW2e-qfFU78c-FDoqO4C0prqZpj9_FcTzAaKoX0YbdOVWp4qBCkQ/exec', {
         method: 'POST',
         body: JSON.stringify(formData),
     });
