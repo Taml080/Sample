@@ -13,7 +13,7 @@ document.getElementById("registrationForm").addEventListener("submit", async fun
       
 
 try {
-    const response = await fetch('https://script.google.com/macros/s/AKfycbxQ0i2hmmMDpx0iwNh6u7gRZHPIaQT-ii3dmyyEix0jWlbU_vmUcbBc7c2ZcJvsWq1AYg/exec', {
+    const response = await fetch('https://script.google.com/macros/s/AKfycbyJv7C2V1ltOFAy1P9WqeWVejgJzYgecngWqdjw-Jwtr_rxsq-ap8xjYzJqMpTMHys/exec', {
         method: 'POST',
         body: JSON.stringify(formData),
     });
